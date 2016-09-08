@@ -23,5 +23,5 @@ a{text-decoration: none; color:white; }
 a:hover{text-decoration: underline;}
 img{border: none; height:100%;width:100%;}
 .lol{color:white;margin-left: 50px; background: url("http://tv.eslgaming.com/images/game/league-of-legends/logo.png");width: 500px; height: 282px; text-indent: -9999px; position: relative; right:-425px;}
-footer{clear:both;width:auto;margin-top: 25px; margin-bottom:20px;}
-#footer { color: dimgray; padding: 7px; margin: 0 auto; width: 980px;}
+footer{clear:both;width:auto;}
+#footer { color: dimgray; padding: 7px; margin: 0 auto; width: 980px; margin-top: 25px; margin-bottom: 20px; text-align: center;}
