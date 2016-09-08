@@ -12,8 +12,8 @@ h6 { font-size: 12px;}
 h2 { color: green;}
 p { margin: 0 0 10px;}
 main{margin: 0 auto; width:980px; padding: 5px;}
-#main-content { background-color: #000; padding: 10px; box-shadow: 2px 3px 4px #292929; border-radius: 5px;}
-.league-name span{color: #f00;}
+#main-content { background-color: #000; padding: 10px; box-shadow: 2px 3px 4px #292929; border-radius: 5px; color: #FFF; }
+.league-name span { color: #F33; font-weight: bold;}
 .intro {color:white; text-shadow: 1px 2px 2px #333;}
 .email {padding: 10px; box-shadow: 1px 3px 2px #333;text-align:right;}
 .email a{color:white; background:rgba(0,0,0,.25); padding: 10px;}
