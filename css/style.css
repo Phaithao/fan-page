@@ -6,7 +6,7 @@ body {
 
 body {
     color: #fff;
-    font-family: aria, tahoma;
+    font-family: Times New Roman, Calibri;
     font-size: 12px;
     line-height: 18px;
     background: #090e11 url("http://na.leagueoflegends.com/sites/default/files/upload/art/teambuilder-wallpaper.jpg") top center no-repeat;
@@ -35,7 +35,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: inherit;
+    font-family: Trebuchet ms;
     font-weight: 500;
     line-height: 1.1;
     color: #5a351c;
@@ -129,6 +129,8 @@ main {
 a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 a:hover {
@@ -165,18 +167,21 @@ footer {
     margin-top: 25px;
     margin-bottom: 20px;
     text-align: center;
+    font-style: italic;
+    font-size: 10px;
 }
 
 .LOL-Login {
     background: url(../images/LoL%20Game.jpg) top center no-repeat;
-    width: 1728px;
-    height: 1080px;
+    _width: 1728px;
+    height: 621px;
     display: block;
+    background-size: 100% 100%;
 }
 
 .LOL-SignUP {
     background: url(../images/LoL%20Signup.jpg) top center no-repeat;
-    width: 1072px;
+    _width: 1072px;
     height: 732px;
     display: block;
 }
@@ -184,3 +189,6 @@ footer {
 .hide {
     display: none;
 }
+
+.Cap{text-transform: uppercase;}
+.square{list-style-type: square;}
