@@ -177,7 +177,7 @@ footer {
 .image-left {
     display: block;
     position: absolute;
-    top: 30px;
+    top: 35px;
     left: 100px;
     width: 300px;
     height: 333px;
@@ -187,7 +187,7 @@ footer {
 .image-right {
     display: block;
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 100px;
     width: 300px;
     height: 333px;
