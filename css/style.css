@@ -182,7 +182,7 @@ footer {
     width: 300px;
     height: 333px;
     background: url(../images/Defeat.png) top center no-repeat;
-    text-indent: -9999;
+    text-indent: -9999px;
 }
 
 .image-right {
@@ -193,7 +193,7 @@ footer {
     width: 300px;
     height: 333px;
     background: url(../images/Victory.png) top center no-repeat;
-    text-indent: -9999;
+    text-indent: -9999px;
 }
 
 .hide {
