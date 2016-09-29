@@ -200,20 +200,26 @@ footer {
     float: left;
     display: block;
     top: 30px;
+    position: absolute;
+    top: 35px;
     left: 100px;
     width: 300px;
     height: 333px;
     background: url(../images/Defeat.png) top center no-repeat;
+    text-indent: -9999px;
 }
 
 .image-right {
     float: right;
     display: block;
     top: 40px;
+    position: absolute;
+    top: 45px;
     right: 100px;
     width: 300px;
     height: 333px;
     background: url(../images/Victory.png) top center no-repeat;
+    text-indent: -9999px;
 }
 
 .hide {
