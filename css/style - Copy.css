@@ -14,7 +14,7 @@ body {
     font-variant: normal;
     font-weight: 500;
     line-height: 18px;
-    background-image: linear-gradient(#2d2d2b, #825907);
+    background-image: linear-gradient(to bottom right, #a68035, #42413f);
 }
 
 a {
@@ -62,7 +62,6 @@ p {
     width: 100%;
     height: 100%;
 }
-
 a.ul {
     text-decoration: underline;
 }
@@ -81,7 +80,7 @@ a.ul {
 
 header {
     margin: 0 auto;
-    width: 100%;
+    width: 1024px;
 }
 
 main {
@@ -158,11 +157,6 @@ img {
     position: relative;
 }
 
-header h1 {
-    width: 80%;
-    margin: 0 auto;
-}
-
 footer {
     clear: both;
     width: auto;
@@ -199,6 +193,7 @@ footer {
 .image-left {
     float: left;
     display: block;
+    position: absolute;
     top: 30px;
     left: 100px;
     width: 300px;
@@ -209,13 +204,13 @@ footer {
 .image-right {
     float: right;
     display: block;
+    position: absolute;
     top: 40px;
     right: 100px;
     width: 300px;
     height: 333px;
     background: url(../images/Victory.png) top center no-repeat;
 }
-
 .hide {
     display: none;
 }
@@ -228,27 +223,3 @@ footer {
     list-style-type: square;
 }
 
-.fl-left {
-    position: absolute;
-    float: left;
-    top: 30px;
-    left: 100px;
-    width: 300px;
-    height: 333px;
-}
-
-.fl-right {
-    float: right;
-    position: absolute;
-    top: 40px;
-    right: 100px;
-    width: 300px;
-    height: 333px;
-}
-
-@media screen and (max-width: 900px) {
-    .fl-right,
-    .fl-left {
-        display: none;
-    }
-}
