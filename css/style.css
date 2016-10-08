@@ -7,19 +7,22 @@ body {
 body {
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #030D6C;
     font-family: "Trebuchet MS", Arial, "Times New Roman";
     font-size: 12px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 18px;
-    background-image: linear-gradient(#2d2d2b, #825907);
+    background-image: linear-gradient(#FFFFFF, #FFE500, #030D6C);
+    margin-top: 175px;
 }
 
 a {
-    color: #333;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 a:hover,
@@ -45,7 +48,7 @@ h6 {
 }
 
 h2 {
-    color: rgba(255, 255, 255, .6);
+    color: #030D6C;
     font-size: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -71,15 +74,12 @@ a.ul {
     display: none;
 }
 
-.Cap {
-    text-transform: uppercase;
-}
-
 .square {
     list-style-type: square;
 }
 
 header {
+    position: absolute;
     margin: 0 auto;
     width: 100%;
 }
@@ -93,7 +93,7 @@ main {
     width: 80%;
     padding: 10px;
     border-radius: 5px;
-    color: #FFF;
+    color: #030D6C;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
     line-height: 2;
@@ -105,12 +105,11 @@ main {
 }
 
 #POST-entry {
-    color: white;
+    color: #1E2A97;
 }
 
 .intro {
-    color: white;
-    text-shadow: 1px 2px 2px #333;
+    color: #1E2A97;
 }
 
 .email {
@@ -131,14 +130,7 @@ main {
 
 .copyright {
     clear: both;
-    color: #636363;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
+    color: wheat;
 }
 
 a:hover {
@@ -156,6 +148,7 @@ img {
     height: 282px;
     text-indent: -9999px;
     position: relative;
+    margin-top: -200px;
 }
 
 header h1 {
@@ -169,7 +162,7 @@ footer {
 }
 
 #footer {
-    color: dimgray;
+    color: white;
     padding: 7px;
     margin: 0 auto;
     width: 980px;
@@ -180,20 +173,17 @@ footer {
     font-size: 10px;
 }
 
-.LOL-Login {
-    background: url(../images/LoL%20Game.jpg) top center no-repeat;
+.LoginPage {
     height: 621px;
     width: 1000px;
     display: block;
-    background-size: 100% 100%;
 }
 
-.LOL-SignUP {
-    background: url(../images/LoL%20Signup.jpg) top center no-repeat;
+.SignUpPage {
     height: 732px;
     display: block;
     width: 1000px;
-    background-size: 100% 100%;
+    background-size: 50% 50%;
 }
 
 .hide {
@@ -208,7 +198,8 @@ footer {
     list-style-type: square;
 }
 
-.fl-left {
+
+/*.fl-left {
     position: absolute;
     float: left;
     top: 30px;
@@ -225,6 +216,7 @@ footer {
     width: 300px;
     height: 333px;
 }
+*/
 
 @media screen and (max-width: 900px) {
     .fl-right,
