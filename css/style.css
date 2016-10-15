@@ -135,7 +135,7 @@ main {
 
 .copyright {
     clear: both;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 a:hover {
@@ -381,6 +381,9 @@ section {
         color: #666666;
     }
     a {
+        color: white;
+    }
+    .copyright {
         color: white;
     }
 }
