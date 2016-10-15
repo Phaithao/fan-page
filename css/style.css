@@ -20,7 +20,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 15px;
 }
@@ -379,5 +379,8 @@ section {
         margin: 0 auto;
         width: 80%;
         color: #666666;
+    }
+    a {
+        color: white;
     }
 }
