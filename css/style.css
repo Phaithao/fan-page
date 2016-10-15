@@ -20,7 +20,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 15px;
 }
@@ -135,7 +135,7 @@ main {
 
 .copyright {
     clear: both;
-    color: wheat;
+    color: #000000;
 }
 
 a:hover {
