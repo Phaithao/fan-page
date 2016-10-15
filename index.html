@@ -11,36 +11,62 @@
 
 <body>
     <article>
-    <header>
-        <h1 class="lol">League of Legends</h1>
-    </header>
+        <header>
+            <h1 class="lol">League of Legends</h1>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#intro">Introduction</a>
+                </li>
+                <li>
+                    <a href="#login-screen">Login Screen</a>
+                </li>
+                <li>
+                    <a href="#signup-screen">Signup Screen</a>
+                </li>
+                <li>
+                    <a href="#thumbnail">Game Screenshots</a>
+                </li>
+            </ul>
+            <div class="mobile" onclick="document.getElementById('pop-menu').style.display='block';document.getElementById('overlay').style.display='block'">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
     </article>
     <main id="main-content">
         <div class="league-name">
             <a style="color: #1E2A97;" href="http://na.leagueoflegends.com/">League of Legends</a> <span>Free to play!</span>
         </div>
-        <article>
-        <div id="POST-entry">
-            <h3>Introdution</h3>
-            <p class="intro">Hello everyone and welcome! My name is Phai Thao and my favorite thing to do on my spare time is playing League of Legends, a MOBA(Multiplayer Online Battle Arena) game. It consists of 5 players on both teams, the objective is to destroy the opponent's main building, The Nexus, to claim victory over the opponent! There are 5 roles per team, Attack Damage Carry (Adc, Long Range), Mid Lane (Mainly Bursts), Top Lane (Mainly Tanks), and Support (Help the ADC/Team during fights between the teams). There are over 100 champions that you can choose from, there's no limit as to what you can do! Join and explore the different champions that you can play from and chat with real world people! </p>
-        </div>
+        <section id="intro">
+            <article>
+                <div id="POST-entry">
+                    <h3>Introdution</h3>
+                    <p class="intro">Hello everyone and welcome! My name is Phai Thao and my favorite thing to do on my spare time is playing League of Legends, a MOBA(Multiplayer Online Battle Arena) game. It consists of 5 players on both teams, the objective is to destroy the opponent's main building, The Nexus, to claim victory over the opponent! There are 5 roles per team, Attack Damage Carry (Adc, Long Range), Mid Lane (Mainly Bursts), Top Lane (Mainly Tanks), and Support (Help the ADC/Team during fights between the teams). There are over 100 champions that you can choose from, there's no limit as to what you can do! Join and explore the different champions that you can play from and chat with real world people! </p>
+                </div>
             </article>
-        <section>
-        <h1>
+        </section>
+        <section id="login-screen">
+            <h1>
             <img src="images/LoL%20Game.jpg" class="LoginPage" alt="LoL log in page"/>
             <span class="hide">League of Legends login gameplay page</span>
         </h1>
         </section>
-        <article>
-        <h2>League of Legends</h2>
-        <p>Full Website: <a style="color: #1E2A97;" href="https://signup.na.leagueoflegends.com/en/signup/index?realm_key=na">League of Legends Registration!</a></p>
-        </article>
-        <ul class="square">
-            <li>Register! It's totally free to play!</li>
-            <li>Come and join us!</li>
-        </ul>
-        <section>
-        <h1>
+        <section id="signup-screen">
+            <article>
+                <h2>League of Legends</h2>
+                <p>Full Website: <a style="color: #1E2A97;" href="https://signup.na.leagueoflegends.com/en/signup/index?realm_key=na">League of Legends Registration!</a></p>
+            </article>
+            <ul class="square">
+                <li>Register! It's totally free to play!</li>
+                <li>Come and join us!</li>
+            </ul>
+            <h1>
             <img src="images/LoL%20Signup.jpg" class="SignUpPage" alt="LoL Signup Picture"/>
             <span class="hide">Register an account</span>
         </h1>
@@ -54,19 +80,43 @@
      <span class="hide">Victory</span> 
 
         </h2> -->
-        <article>
-        <div class="tn">
-            <h2>League of League thumbnail</h2>
-            <a href="images/LoL%20Game.jpg"><img src="images/tn.jpg" alt="thumbnail" /> </a>
-        </div>
+        <section id="thumbnail">
+            <article>
+                <div class="tn">
+                    <h2>League of League thumbnail</h2>
+                    <a href="images/LoL%20Game.jpg"><img src="images/tn.jpg" alt="thumbnail" class="small"/> </a>
+                </div>
             </article>
-
+        </section>
     </main>
     <footer id="footer">
         <p class="copyright">Copyright &copy; 2016 <a href="mailto:phaithoj@gmail.com">Phai Thao</a></p>
         <p class="copyright">Copyright &copy; 2016 <a href="mailto:support@riotgames.com">Riot Games Inc. All rights reserved. League of Legends and Riot Games Inc. are trademarks or registered trademarks of Riot Games, Inc.</a></p>
         <a href="http://paletton.com/palette.php?uid=5460D0kXcUypIUQzqWzGxBqV9oQ"> Color's Paletton</a>
     </footer>
+
+    <div id="pop-menu" class="pop-BG" style="display: none;">
+        <a href="" class="mobile-close">&times;</a>
+        <ul class="pop-ul">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#intro">Introduction</a>
+            </li>
+            <li>
+                <a href="#login-screen">Login Screen</a>
+            </li>
+            <li>
+                <a href="#signup-screen">Signup Screen</a>
+            </li>
+            <li>
+                <a href="#thumbnail">Game Screenshots</a>
+            </li>
+        </ul>
+    </div>
+    <div id="overlay" onclick="document.getElementById('pop-menu').style.display='none';document.getElementById('overlay').style.display='none'"></div>
+
 </body>
 
 </html>
